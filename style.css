@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-style: none;
+    cursor: default;
+}
+
+button:hover, li{
+    cursor: pointer;
+}
+
+nav{
+    background-color: #00050d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+    height: 22px;
+}
+
+.user{
+    padding: 0px 0px 0px 20px;
+    margin: 10px;
+}
+
+.user img{
+    width: 35px;
+    height: 35px;
+}
+
+.pesquisa img{
+    fill: white;
+}
+
+.camp{
+    display: flex;
+    align-items: center;
+}
+
+.menu-resp{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    display: none;
+}
+
+ul{
+    display: flex;
+    margin: 0px 40px;
+}
+
+li{
+    font-size: 18px;
+    color: #aaaaaa;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+.menu li:hover{
+    background-color: #191e25;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.open-menu, .open-menu2, .open-menu4{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.open-menu3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inicio-menu{
+    z-index: 2;
+    margin-top: 255px;
+    position: absolute;
+    display: none;
+    background-color: #191e25;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.inicio-menu2{
+    z-index: 3;
+    margin-top: 200px;
+    position: absolute;
+    display: none;
+    background-color: #191e25;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.inicio-menu3{
+    z-index: 5;
+    margin-top: 445px;
+    position: absolute;
+    margin-right: 90px;
+    display: none;
+    background-color: #191e25;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.inicio-menu4{
+    z-index: 4;
+    margin-top: 200px;
+    position: absolute;
+    display: none;
+    background-color: #191e25;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.inicio-menu.open, .inicio-menu2.open, .inicio-menu4.open{
+    display: block;
+}
+
+.inicio-menu3.open{
+    display: flex;
+}
+
+.inicio-menu ul, .inicio-menu2 ul, .inicio-menu3 ul, .inicio-menu4 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+.generos{
+    display: flex;
+    padding: 30px 70px;
+    
+}
+
+.destaques{
+    padding: 30px 30px 30px 30px;
+
+}
+
+.generos p, .destaques p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.generos ul:nth-child(2){
+    padding-top: 30px;
+}
+
+.inicio-menu li:hover, .inicio-menu2 li:hover, .inicio-menu3 li:hover, .inicio-menu4 li:hover{
+    background-color: white;
+    border-radius: 6px;
+    color: #191e25;
+}
+
+.inicio-menu li:hover{
+    background-color: white;
+    color: #191e25;
+}
+
+.inicio-menu li{
+    padding: 15px 5px;
+}
+
+.inicio-menu2 li{
+    padding: 15px 15px;
+
+}
+
+.inicio-menu4 li{
+    padding: 15px 15px;
+
+}
+
+.generos li{
+    padding: 15px 45px 15px 10px;
+
+}
+
+.destaques li{
+    padding: 15px 45px 15px 10px;
+
+}
+
+.section1{
+    background-image: linear-gradient(to right, black 40%, transparent ), url(BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 600px
+}
+
+.conteudo{
+    width: 47%;
+    color: white;
+    
+
+}
+
+.informations{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.container-texts{
+    margin-left: 45px;
+    padding-top: 50px;
+}
+
+.container-texts h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+.assinar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ou{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.ou p{
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    width: 125px;
+}
+
+.assinar button{
+    width: 280px;
+    height: 48px;
+    background-color: #0F79AF;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.informacao-importante{
+    font-size: 14px;
+
+}
+
+.section2{
+    display: flex;
+}
+
+.container-2{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.container-texts-2{
+    margin-top: 20px;
+    width: 42%;
+}
+
+.container-texts-2 h1{
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.container-texts-2 p{
+    font-size: 24px;
+
+}
+
+.services{
+    display: flex;
+    width: 50%;
+
+}
+
+
+
+.services img{
+    width: 95%;
+}
+
+.section3{
+    background: linear-gradient(to left, black 35%, transparent ), url(MLP_BG_left_1440x675.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 660px;
+    display: flex;
+    justify-content: end;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 50px;
+    margin-right: 35px;
+}
+
+.conteudo2 button{
+    width: 280px;
+    height: 48px;
+    background-color: #0F79AF;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.conteudo2 h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.conteudo2 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.conteudo3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.infos{
+    width: 33%;
+}
+
+
+.infos h1{
+    font-size: 33px;
+}
+
+.infos p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer li{
+    color: #0f79af;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+.amz-logo{
+    width: 109px;
+    height: 32px;
+    margin-top: 25px;
+
+}
+
+footer p{
+    font-size: 13px;
+    color: #949494;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.coluna img:hover{
+    box-shadow: black -1px -2px 20px 1px;
+    cursor: pointer;
+}
+
+@media (max-width:880px){
+
+    .menu-resp{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+
+}
+
+@media (max-width:1024px){
+    .section1{
+        background: linear-gradient(to top, black 60%, transparent ), url(BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo{
+        width: 95%;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .assinar{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1px;
+    }
+
+    .container-texts-2{
+        width: 85%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .services{
+        width: 90%;
+        
+    }
+
+    .conteudo2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin: 0;
+    }
+
+    .section3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to top, black 35%, transparent ), url(MLP_BG_left_1440x675.jpg);
+        background-position: top top;
+        background-repeat: no-repeat;
+        height: 1000px;
+        
+    }
+
+    .conteudo3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .infos{
+        width: 88%;
+        margin-bottom: 15px;
+    }
+
+    .container-texts{
+        margin-left: 0px;
+    }
+}
